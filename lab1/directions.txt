@@ -1,0 +1,9 @@
+Task 1: Put 0xFF into RAM positions 0x50 through 0x58 using direct addressing
+
+• Task 2: Do the same using indirect addressing mode.
+
+• Task 3: Write a program to clear RAM locations starting at RAM address 0x50 to
+0x58 (Hint: you can mov 0x00 value)
+
+• Task 4: Write a program for the series 1+2+3+….+N (N=10) and put the sum into
+memory location 0x50
