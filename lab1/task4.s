@@ -3,7 +3,7 @@
     .lcomm ram, 256 # 256 bytes
 
 .section .text
-    .global calc_series # visible to C
+    .global fill_ram # visible to C
     fill_ram:
         mov $0, %edx # EDX = 0 data int
         mov $10, %ecx # ECX = 10 count int

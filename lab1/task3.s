@@ -3,7 +3,7 @@
     .lcomm ram, 256 # 256 bytes
 
 .section .text
-    .global clr_ram # visible to C
+    .global fill_ram # visible to C
     fill_ram:
         movb $0x00, ram+0x50 # RAM[50H] = FFH
         movb $0x00, ram+0x51 # RAM[51H] = FFH
